@@ -1,0 +1,15 @@
+[control]
+apollo
+boreas
+cerus
+
+[node]
+chaos
+crios
+helios
+hermes
+hypnos
+
+[cluster:children]
+control
+node
