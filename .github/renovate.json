@@ -25,18 +25,6 @@
         "helm:\\s+chart:\\s+name:.*\\s+version:\\s+(?<currentValue>.*)$"
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
-    },
-    {
-      "customType": "regex",
-      "datasourceTemplate": "github-releases",
-      "depNameTemplate": "longhorn/longhorn",
-      "fileMatch": [
-        "roles/longhorn/defaults/main.yaml$"
-      ],
-      "matchStrings": [
-        "helm:\\s+chart:\\s+name:.*\\s+version:\\s+(?<currentValue>.*)$"
-      ],
-      "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
   ],
   "dependencyDashboard": true,
