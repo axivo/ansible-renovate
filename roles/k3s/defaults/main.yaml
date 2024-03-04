@@ -1,2 +1,8 @@
 ---
-k3s_version: v1.28.4+k3s2
+k3s_vars:
+  controller:
+    version: v0.13.2
+  k3s:
+    version: v1.29.1+k3s2
+  kubectl:
+    version: v1.29.1
