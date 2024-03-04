@@ -40,9 +40,6 @@
     }
   ],
   "dependencyDashboard": true,
-  "extends": [
-    "config:recommended"
-  ],
   "includePaths": [
     "**/roles/argocd/defaults/main.yaml",
     "**/roles/k3s/defaults/main.yaml",
